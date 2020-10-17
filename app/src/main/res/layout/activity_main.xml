@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="348dp"
         android:layout_weight="1"
-        android:background=""
+        android:background="@drawable/black"
+
         android:padding="8dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
@@ -32,7 +33,7 @@
             android:layout_marginTop="1dp"
             android:padding="0dp"
             android:text="Marchellino"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="18sp" />
 
         <TextView
@@ -44,7 +45,7 @@
             android:layout_marginTop="1dp"
             android:padding="0dp"
             android:text="Profile"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="18sp" />
 
         <LinearLayout
@@ -63,6 +64,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="0.33"
                 android:text="Post"
+                android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <TextView
@@ -72,6 +74,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="Followers"
+                android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <TextView
@@ -81,6 +84,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="0.33"
                 android:text="Followiing"
+                android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
         </LinearLayout>
